@@ -99,19 +99,7 @@
     "singleQuote": true,
     "arrowParens": "always"
   },
-  "optionalDependencies": {
-    "@napi-rs/package-template-win32-x64-msvc": "1.0.0",
-    "@napi-rs/package-template-darwin-x64": "1.0.0",
-    "@napi-rs/package-template-linux-x64-gnu": "1.0.0",
-    "@napi-rs/package-template-linux-x64-musl": "1.0.0",
-    "@napi-rs/package-template-linux-arm64-gnu": "1.0.0",
-    "@napi-rs/package-template-win32-ia32-msvc": "1.0.0",
-    "@napi-rs/package-template-linux-arm-gnueabihf": "1.0.0",
-    "@napi-rs/package-template-darwin-arm64": "1.0.0",
-    "@napi-rs/package-template-android-arm64": "1.0.0",
-    "@napi-rs/package-template-freebsd-x64": "1.0.0",
-    "@napi-rs/package-template-linux-arm64-musl": "1.0.0",
-    "@napi-rs/package-template-win32-arm64-msvc": "1.0.0",
-    "@napi-rs/package-template-android-arm-eabi": "1.0.0"
+  "dependencies": {
+    "@napi-rs/package-template": "^1.0.0"
   }
 }
